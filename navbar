@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="navbar.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap" rel="stylesheet">
+    </head>
+
+    <div id="nav">
+            <img src="dojo-icon copy.png" alt="dojo-icon">
+            <h1>Coding Dojo</h1>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Contacts</a></li>
+                <li><a href="#">About Me</a></li>
+                <li><a href="#">Cool Sites</a></li>
+            </ul>
+        </div>
+</html>
+
+
+#CSS 
+
+* {
+color: white;
+margin: 0;
+padding: 0;
+font-family: 'Montserrat', sans-serif;
+}
+
+#nav { 
+background-color: #6F9EF0;
+display: flex; 
+justify-content: space-between;
+align-items: center;
+padding:10px
+}
+
+img {
+width: 100px;
+align-self: center;
+}
+
+ul {
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+width:60%
+}
+
+a {
+text-decoration: none;
+}
