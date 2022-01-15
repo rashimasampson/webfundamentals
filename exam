@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="consult.css">
+    <title>James Consulting</title>
+</head>
+
+<body>
+    <div id="container"> 
+        <div id="header">
+            <h2>James</h2>
+            <h2 class="second-word">Consulting</h2>
+            <h3 class="hover-word">Home</h3>
+            <h3>About</h3>
+            <h3>Services</h3>
+            <h3>Projects</h3>
+            <h3>Clients</h3>
+        </div>
+
+    <div id="main-content">
+    <img src="main_img.png" alt="main_img">
+    </div>
+        <div id="box-content">
+            <div class="box-slide">
+    <img src="icon.png" alt="icon"> 
+    <h2>Services</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique maxime ullam nisi sapiente facilis necessitatibus tempore minima natus voluptate.</p>
+        <button>More Info</button>
+        </div>
+            <div class="box-slide">
+    <img src="icon.png" alt="icon"> 
+    <h2>Projects</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique maxime ullam nisi sapiente facilis necessitatibus tempore minima natus voluptate.</p>
+        <button>More Info</button>
+    </div>
+            <div class="box-slide">
+    <img src="icon.png" alt="icon"> 
+    <h2>Clients</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae similique maxime ullam nisi sapiente facilis necessitatibus tempore minima natus voluptate.</p>
+        <button>More Info</button>
+            </div>
+        </div>
+        <div id="bottom-section">
+    <div class="bottom-content">
+    <h2 class="bottom-texts">THE WORLD CAN BE YOURS</h2>
+    <img src="building.png" alt="building">
+    </div>
+    <div class="bottom-content">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloremque, hic voluptas! Explicabo ducimus perspiciatis eveniet.</p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati culpa omnis eum temporibus maxime earum?</p>
+    
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+    
+        <h2 class="bottom-link">Learn more</h2>
+    </div>
+    <div class="bottom-content">
+        <h2 class="bottom-texts">TESTIMONIAL</h2>
+        <label for="testimonial">I'm a testimonial. Click me to add and edit any text that says something nice about you and your services.
+        </label>
+        <input type="text" id="testimonial" name="testimonial">
+        <p>Samantha Jones, Project Manager</p>
+    </div>
+        </div>
+    <div id="footer">
+        <h4 class="footer-hover">Home</h4>
+        <h4>About</h4>
+        <h4>Services</h4>
+        <h4>Projects</h4>
+        <h4>Clients</h4>
+    </div>
+        </div>
+</body>
+</html>
+
+
+* {
+margin-top: 0px auto;
+padding: 0px;
+}
+
+#container{ 
+width: 995px;
+background-color: #062234;
+margin-top: 0% auto;
+}
+
+#header {
+display: flex;
+color:white;
+justify-content: space-evenly;
+width:100%;
+}
+
+.second-word {
+color: cornflowerblue;
+}
+
+.hover-word {
+color:cornflowerblue;
+}
+
+#main-content {
+padding:15px;
+background-color: white;
+margin: 10px;
+margin-bottom: 0%;
+display: flex;
+justify-content: space-between;
+}
+
+#main-content img {
+width:940px;
+background-color: white;
+}
+
+
+#box-content {
+padding:0px;
+background-color: white;
+margin: 10px;
+margin-top: 0%;
+margin-bottom: 0%;
+display: flex;
+justify-content: space-evenly;
+}
+
+
+.box-slide {
+margin:0px;
+width:275px;
+height:300px;
+background-color: #2068A8;
+color: white;
+justify-content:space-between;
+}
+
+.box-slide img {
+height:25px;
+width:25px;
+}
+
+#bottom-section {
+color: #7A8893;
+background-color: white;
+display: flex;
+margin: 10px;
+margin-top: 0px;
+margin-bottom: 0px;
+width:98%;
+}
+
+#bottom-content {
+color: #7A8893;
+background-color: white;
+margin: 10px;
+margin-top: 0px;
+width: 100%;
+}
+
+button {
+color:#98C7ED;
+background-color: blue;
+width:100px;
+height:40px;
+}
+
+.bottom-link {
+color:cornflowerblue;
+}
+
+.bottom-content img {
+width:350px;
+height:200px;
+}
+
+#footer {
+display: flex;
+background-color: lightblue;
+align-content: center;
+justify-content:space-evenly;
+margin-top: 5px;
+margin-bottom:5px;
+color: cornflowerblue;
+height:50px;
+}
+
+.footer-hover {
+color: #98C7ED;
+}
+
+.bottom-texts {
+color:#062234;
+}
+
+
+
